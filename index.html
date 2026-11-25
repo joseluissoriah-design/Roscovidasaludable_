@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rosco de Vida Saludable</title>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top banner">
+    <div class="bt">
+      <h1>El Rosco de la Vida Saludable</h1>
+      <p>Movilidad activa y hábitos saludables · 4.º de Primaria</p>
+    </div>
+    <picture class="scene-pic">
+      <source srcset="img/cabecera-oscuro.svg" media="(prefers-color-scheme: dark)">
+      <img class="scene" src="img/cabecera-claro.svg" width="440" height="210" alt="Dibujo de una calle con un colegio, dos niños andando por la acera y una persona en bici con casco por el carril bici, bajo el sol">
+    </picture>
+  </header>
+
+  <main class="game">
+    <div class="rosco" id="rosco">
+      <ol class="nodes" id="nodes" aria-label="Rosco de letras"></ol>
+      <div class="hub" id="hub">
+        <span class="lab" id="hubLab">Tiempo</span>
+        <span class="time" id="hubTime">8:00</span>
+        <div class="tally">
+          <span><i class="d-ok"></i><b id="tOk">0</b> bien</span>
+          <span><i class="d-bad"></i><b id="tBad">0</b> <em class="lb" id="lblBad">mal</em></span>
+          <span><i class="d-left"></i><b id="tLeft">22</b> faltan</span>
+        </div>
+      </div>
+    </div>
+    <section class="panel" id="panel" aria-live="polite" aria-label="Zona de juego"></section>
+  </main>
+
+  <section class="learn" aria-labelledby="learnT">
+    <h2 id="learnT">Cuatro ideas para una vida saludable</h2>
+    <ul class="cards">
+      <li class="card"><span class="ic s pic" aria-hidden="true">🏃</span><b>Muévete cada día</b><p>La OMS recomienda a niños y niñas moverse al menos 60 minutos al día. Jugar, correr y hacer deporte cuentan, y tu corazón lo agradece.</p><span class="tag">Letras J · Y · E · C</span></li>
+      <li class="card"><span class="ic w pic" aria-hidden="true">🚲</span><b>Muévete por el camino</b><p>Ir andando o en bici al colegio es movilidad activa: haces ejercicio y contaminas menos.</p><span class="tag">Letras M · B · P · I</span></li>
+      <li class="card"><span class="ic v pic" aria-hidden="true">🥗</span><b>Cuida tu cuerpo</b><p>Come frutas y verduras, bebe agua, duerme de 9 a 12 horas, y lávate las manos y los dientes.</p><span class="tag">Letras A · V · F · S · L · D · H · O · Z</span></li>
+      <li class="card"><span class="ic o pic" aria-hidden="true">😊</span><b>Cuida tus emociones</b><p>Todas las emociones son normales. Respirar hondo, dar las gracias y hablar con alguien te ayudan a sentirte mejor.</p><span class="tag">Letras G · N · T · R</span></li>
+    </ul>
+  </section>
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 210" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <g id="kid"><circle cx="0" cy="-26" r="7" fill="#F2C9A0"/><rect x="-6" y="-18" width="12" height="18" rx="4" fill="currentColor"/><rect x="-11" y="-17" width="6" height="11" rx="2" fill="#D9780F"/><path d="M-3 0L-5 10M3 0L5 10" stroke="#1E1A3C" stroke-width="3" stroke-linecap="round" fill="none"/></g>
+      </defs>
+      <rect width="440" height="210" fill="#D4E8F9"/>
+      <path d="M380 14v8M380 74v8M346 48h-8M414 48h8M356 24l-5-5M404 72l5 5M404 24l5-5M356 72l-5 5" stroke="#F5B82E" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <circle cx="380" cy="46" r="22" fill="#F5B82E"/>
+      <g fill="#FFFFFF" opacity=".92"><ellipse cx="270" cy="34" rx="26" ry="10"/><ellipse cx="252" cy="38" rx="16" ry="8"/><ellipse cx="289" cy="39" rx="17" ry="8"/></g>
+      <rect y="120" width="440" height="20" fill="#A9DA8D"/>
+      <path d="M10 80L74 48L138 80Z" fill="#6A52C9"/>
+      <rect x="18" y="80" width="112" height="56" fill="#F2DDAE"/>
+      <rect x="64" y="104" width="20" height="32" rx="2" fill="#6A52C9"/>
+      <g fill="#D4E8F9"><rect x="28" y="92" width="12" height="12"/><rect x="44" y="92" width="12" height="12"/><rect x="94" y="92" width="12" height="12"/><rect x="110" y="92" width="12" height="12"/></g>
+      <path d="M74 48V28" stroke="#1E1A3C" stroke-width="2" stroke-linecap="round"/>
+      <path d="M74 28h14l-4 4l4 4H74z" fill="#D9780F"/>
+      <rect x="204" y="96" width="8" height="40" fill="#7B5334"/>
+      <circle cx="208" cy="88" r="24" fill="#3E8E55"/>
+      <rect y="136" width="440" height="16" fill="#DEDAEA"/>
+      <rect y="152" width="440" height="52" fill="#50506A"/>
+      <rect y="152" width="440" height="22" fill="#6FC17C"/>
+      <path d="M0 174H440" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="10 8" fill="none"/>
+      <path d="M0 192H440" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="14 10" opacity=".7" fill="none"/>
+      <rect y="204" width="440" height="6" fill="#DEDAEA"/>
+      <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"><circle cx="40" cy="164" r="5"/><circle cx="54" cy="164" r="5"/><path d="M40 164L46 156H52L54 164M46 156L47 164"/></g>
+      <use href="#kid" x="256" y="138" style="color:#4A3FB0"/>
+      <use href="#kid" transform="translate(286 140) scale(.85)" style="color:#0F7F82"/>
+      <g stroke="#1E1A3C" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="330" cy="162" r="9"/><circle cx="362" cy="162" r="9"/><path d="M330 162L342 148L356 148L362 162M342 148L346 162L330 162M356 148L359 142M338 146h9"/></g>
+      <path d="M343 146L351 130" stroke="#4A3FB0" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M351 133L359 142" stroke="#4A3FB0" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M343 148L340 158" stroke="#1E1A3C" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <circle cx="354" cy="123" r="6" fill="#F2C9A0"/>
+      <path d="M347 123a7 7 0 0 1 14 0z" fill="#D9780F"/>
+    </svg>
